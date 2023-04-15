@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>F3-Contest1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="Emp">
+        <h1>New Employees </h1><br>
+        <form>
+            <div class="EmpDetail">
+                <div class="input">
+                    <span class="detail">Enter Name</span>
+                    <input type="text" id="name" name="name" />
+
+                </div>
+                <div class="input">
+                    <span class="detail">Enter Profession</span>
+                    <input type="text" id="profession" name="profession" />
+
+                </div>
+                <div class="input">
+
+                    <span class="detail">Enter Age</span>
+                    <input type="number" id="age" name="age" />
+                </div>
+            </div>
+
+            <button type="submit" id="empBtn">Add User</button>
+        </form>
+
+
+        <div class="error" id="error"></div>
+        <div class="success" id="success"></div>
+        <h2>Added Employees</h2>
+
+        <div id="new-div">You have 0 Employees</div>
+        <div id="alreadyAdded">You have 0 Employees</div>
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
